@@ -1,0 +1,191 @@
+#!/bin/user/python
+
+# module
+import os,sys,time,subprocess
+from os import system
+from time import sleep
+
+# menu
+def pertambahan(a,b):
+    return a+b
+def pengurangan(a,b):
+    return a-b
+def perkalian(a,b):
+    return a*b
+def pembagian(a,b):
+    return a/b
+
+# daftar
+os.system('clear')
+os.system('sleep 1')
+os.system("toilet -f standard -F gay Kalkulator | lolcat -a -d 10")
+os.system('sleep 1')
+print("|==================================|")
+print("|                                  |")
+print("|    ©      By The Rebo™    ®      |")
+print("|                                  |")
+print("|==================================|")
+print("|                                  |")
+print("|1). Pertambahan                   |")
+print("|                                  |")
+print("|——————————————————————————————————|")
+print("|                                  |")
+print("|2). Pengurangan                   |")
+print("|                                  |")
+print("|——————————————————————————————————|")
+print("|                                  |")
+print("|3). Perkalian                     |")
+print("|                                  |")
+print("|——————————————————————————————————|")
+print("|                                  |")
+print("|4). Pembagian                     |")
+print("|                                  |")
+print("|——————————————————————————————————|")
+print("|                                  |")
+print("|0). Keluar !!!                    |")
+print("|                                  |")
+print("|——————————————————————————————————|")
+print()
+os.system('sleep 1')
+mull=input("( • ) Rebo : Pilih Yang Mane? => ")
+
+# masukkan data
+if mull=="1":
+   os.system('sleep 1')
+   print()
+   gas1 = int(input("Angka Pertama => "))
+   print()
+   os.system('sleep 1')
+   print("      +")
+   print()
+   os.system('sleep 1')
+   gas2 = int(input("Angka Kedua => "))
+   print()
+   os.system('sleep 1')
+   print(gas1,"+",gas2,"=",pertambahan(gas1,gas2))
+   print()
+   os.system('sleep 2')
+   print("( • ) Rebo : Sudah Selesai Belum? Kalau")
+   print("             Sudah Tinggal Ketik ( Y / y )")
+   print()
+   os.system('sleep 2')
+   loh=input("( • ) Rebo : Sudah? => ")
+   if loh=="Y"or"y":
+      print()
+      os.system('sleep 1')
+      print("( • ) Rebo : Oke!")
+      print()
+      os.system('sleep 2')
+      print("Sistem : Memulai Ulang Script...")
+      os.system('sleep 3')
+      os.system('python kalkulator.py')
+
+if mull=="2":
+   os.system('sleep 1')
+   print()
+   gas1 = int(input("Angka Pertama => "))
+   print()
+   os.system('sleep 1')
+   print("      -")
+   print()
+   os.system('sleep 1')
+   gas2 = int(input("Angka Kedua => "))
+   print()
+   os.system('sleep 1')
+   print(gas1,"-",gas2,"=",pengurangan(gas1,gas2))
+   print()
+   os.system('sleep 2')
+   print("( • ) Rebo : Sudah Selesai Belum? Kalau")
+   print("             Sudah Tinggal Ketik ( Y / y )")
+   print()
+   os.system('sleep 2')
+   tes=input("( • ) Rebo : Sudah? => ")
+   if tes=="Y"or"y":
+      print()
+      os.system('sleep 1')
+      print("( • ) Rebo : Oke!")
+      print()
+      os.system('sleep 2')
+      print("Sistem : Memulai Ulang Script...")
+      os.system('sleep 3')
+      os.system('python kalkulator.py')
+
+if mull=="3":
+   os.system('sleep 1')
+   print()
+   gas1 = int(input("Angka Pertama => "))
+   print()
+   os.system('sleep 1')
+   print("      ×")
+   print()
+   os.system('sleep 1')
+   gas2 = int(input("Angka Kedua => "))
+   print()
+   os.system('sleep 1')
+   print(gas1,"×",gas2,"=",perkalian(gas1,gas2))
+   print()
+   os.system('sleep 2')
+   print("( • ) Rebo : Sudah Selesai Belum? Kalau")
+   print("             Sudah Tinggal Ketik ( Y / y )")
+   print()
+   os.system('sleep 2')
+   dah=input("( • ) Rebo : Sudah? => ")
+   if dah=="Y"or"y":
+      print()
+      os.system('sleep 1')
+      print("( • ) Rebo : Oke!")
+      print()
+      os.system('sleep 2')
+      print("Sistem : Memulai Ulang Script...")
+      os.system('sleep 3')
+      os.system('python kalkulator.py')
+
+if mull=="4":
+   os.system('sleep 1')
+   print()
+   gas1 = int(input("Angka Pertama => "))
+   print()
+   os.system('sleep 1')
+   print("      ÷")
+   print()
+   os.system('sleep 1')
+   gas2 = int(input("Angka Kedua => "))
+   print()
+   os.system('sleep 1')
+   print(gas1,"÷",gas2,"=",pembagian(gas1,gas2))
+   print()
+   os.system('sleep 2')
+   print("( • ) Rebo : Sudah Selesai Belum? Kalau")
+   print("             Sudah Tinggal Ketik ( Y / y )")
+   print()
+   os.system('sleep 2')
+   bro=input("( • ) Rebo : Sudah? => ")
+   if bro=="Y"or"y":
+      print()
+      os.system('sleep 1')
+      print("( • ) Rebo : Oke!")
+      print()
+      os.system('sleep 2')
+      print("Sistem : Memulai Ulang Script...")
+      os.system('sleep 3')
+      os.system('python kalkulator.py')
+
+
+if mull=="0":
+      os.system('sleep 1')
+      print()
+      print("( • ) Rebo : Byeeee")
+      print()
+      os.system('sleep 2')
+      print("Sistem : Keluar Dari Script...")
+      os.system('sleep 3')
+      print()
+      os.system('exit')
+
+# jika memasukkan input yang salah
+else :
+       print()
+       os.system('sleep 1')
+       print("( • ) Rebo : Lu masukinnya yang benar napa -_-")
+       os.system('sleep 3')
+       os.system('python kalkulator.py')
